@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.874,\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\ranking.pas=\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.718,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\settings.pas=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\game.dfm=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Zajicci.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.796,\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\ranking.pas=\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\stats.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.040,=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.532,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\game.pas=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Zajicci.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.796,\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\ranking.dfm=\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\stats.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Zajicci.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.642,=\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.718,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\settings.dfm=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.032,=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.874,\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\ranking.dfm=\\10.0.0.13\homest\2015\ITA\55897sestak\tretak\programovani\DELPHI\HOME\Zajicci\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.412,C:\Users\panda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Zajicci\Zajicci.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.086,=C:\Users\panda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="game.pas"/>
+    <File Path="game.dfm"/>
+    <File Path="settings.pas"/>
+    <File Path="settings.dfm"/>
+    <File Path="stats.pas"/>
+    <File Path="stats.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017.11.20 10:59:00.549,=C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.11.20 10:59:09.794,H:\tretak\programovani\DELPHI\Priklad7_Volba\volba_f.dfm=C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017.11.20 10:59:09.794,H:\tretak\programovani\DELPHI\Priklad7_Volba\volba_f.pas=C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017.11.20 10:59:11.828,H:\tretak\programovani\DELPHI\Priklad7_Volba\volba.dproj=C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

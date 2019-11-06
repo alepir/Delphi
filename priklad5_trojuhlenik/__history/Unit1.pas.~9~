@@ -1,0 +1,88 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Imaging.jpeg;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Image1: TImage;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  a,b,c:real;
+  trojuhelnik:boolean;
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+begin
+  trojuhelnik:=false;
+  a := Strtofloat(Edit1.Text);
+  b := Strtofloat(Edit2.Text);
+  c := Strtofloat(Edit3.Text);
+
+  if (b + c > a) AND (a + c > b) AND (a + b> c) then  trojuhelnik := true;
+
+if trojuhelnik then MessageDlg('Z tìchto hodnot jde sestrojit trojúhelník',mtInformation,[mbOK],0)
+else MessageDlg('Z tìchto hodnot nejde sestrojit trojúhelníku',mtwarning,[mbOK],0);
+
+
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+
+var pravouhly:boolean;
+    pom:real;
+
+begin
+  if a>c then begin
+                pom:=c;
+                c:=a;
+                a:=pom;
+              end;
+  if b>c then begin
+                pom:=c;
+                c:=b;
+                b:=pom;
+              end;
+
+  if (a=b) AND (b=c) then MessageDlg('Jedná se o rovnostranný trojúhelník',mtInformation,[mbOK],0);
+
+
+  if (a=b) OR (b=c) or (a=c) then MessageDlg('Jedná se o rovnoramenný trojúhelník',mtInformation,[mbOK],0);
+
+
+
+  if trojuhelnik then begin
+                          pravouhly := false;
+                          if (sqr(a) + sqr(b)) = sqr(c) then pravouhly := true;
+                            if pravouhly then MessageDlg('Jedná se o pravoúhlý trojúhelník',mtInformation,[mbOK],0)
+                            else MessageDlg('Nejedná se o pravoúhlý trojúhelník',mtwarning,[mbOK],0);
+                      end
+  else MessageDlg('Nejedná se o trojúhelník, popøípadì hodnoty ovìøte pomocí tlaèítka',mtwarning,[mbOK],0);
+
+end;
+
+end.

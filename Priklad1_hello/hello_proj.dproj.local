@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.774,C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Project1.dproj=H:\tretak\programovani\DELPHI\Priklad1\hello_proj.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.566,C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.dfm=H:\tretak\programovani\DELPHI\Priklad1\hello_f.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.718,=C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.566,C:\Users\55897sestak\Documents\Embarcadero\Studio\Projects\Unit1.pas=H:\tretak\programovani\DELPHI\Priklad1\hello_f.pas</Transaction>
+  </Transactions>
+</BorlandProject>

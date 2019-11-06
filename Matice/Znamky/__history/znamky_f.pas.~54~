@@ -1,0 +1,91 @@
+unit znamky_f;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Button2: TButton;
+    StringGrid1: TStringGrid;
+    Button3: TButton;
+    Button4: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+  private
+
+
+  public
+    { Public declarations }
+    n,m:integer;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+
+var     i, j:byte;
+
+begin
+ n := strtoint(Edit1.Text);
+ m := strtoint(Edit2.Text);
+
+
+ Stringgrid1.ColCount := n + 1;
+ StringGrid1.RowCount := m + 1;
+ for i:=1 to (n+1) do  begin
+                    StringGrid1.Cells[i,0] := inttostr(i)+'. známka';
+                    end;
+end;
+
+
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+Stringgrid1.RowCount := Stringgrid1.RowCount +1;
+
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+Stringgrid1.ColCount := Stringgrid1.Colcount +1;
+Stringgrid1.Cells[Stringgrid1.ColCount,0] := Inttostr(Stringgrid1.ColCount)+'. známka';
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+
+var i,j:byte;
+
+begin
+Stringgrid1.Cells[Stringgrid1.ColCount,0] := 'Prùmìr';
+Stringgrid1.ColCount := Stringgrid1.ColCount +1;
+for i := 1 to Stringgrid1.ColCount do begin
+
+end;
+
+
+
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+StringGrid1.Cells[0,0] := 'Jméno';
+
+end;
+
+end.
